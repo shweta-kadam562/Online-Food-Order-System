@@ -16,9 +16,9 @@ public class Restaurant {
 @Column(name="Restaurant_name")
 private String restaurantName;
 private int restaurantId;
-	
-@ManyToOne
-private PlatformExecutive platformExecutive;
+//	
+//@ManyToOne
+//private PlatformExecutive platformExecutive;
 
 public int getRestaurantId() {
 return restaurantId;
@@ -36,11 +36,11 @@ public void setRestaurantName(String restaurantName) {
 this.restaurantName = restaurantName;
 }
 
-public PlatformExecutive getPlatformExecutive() {
-	return platformExecutive;
-}
-
-public void setPlatformExecutive(PlatformExecutive platformExecutive) {
-	this.platformExecutive = platformExecutive;
-}
+//public PlatformExecutive getPlatformExecutive() {
+//	return platformExecutive;
+//}
+//
+//public void setPlatformExecutive(PlatformExecutive platformExecutive) {
+//	this.platformExecutive = platformExecutive;
+//}
 }

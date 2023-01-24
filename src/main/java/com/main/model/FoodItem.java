@@ -21,8 +21,8 @@ public class FoodItem {
 	private String foodItemName;
 	
 
-	@OneToMany
-	private Category category;
+//	@OneToMany
+//	private Category category;
 
 	public int getFoodItemId() {
 		return foodItemId;
@@ -40,12 +40,12 @@ public class FoodItem {
 		this.foodItemName = foodItemName;
 	}
 
-	public Category getCategory() {
-		return category;
-	}
-
-	public void setCategory(Category category) {
-		this.category = category;
-	}
+//	public Category getCategory() {
+//		return category;
+//	}
+//
+//	public void setCategory(Category category) {
+//		this.category = category;
+//	}
 
 }
